@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stylying for Navigation Bar */
+.nav-bar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  float: right;
+}
+
+.nav-bar li a {
+  display: block;
+  padding: 1rem;
+  color: #454545;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-bar li a:hover {
+  color: #161616;
+}
+
+/* Styling for body text */
+.main-text h1 {
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: #454545;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
