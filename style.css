@@ -3,22 +3,22 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
 /* Navigation Bar */
 /* Navigation Bar Desktop */
-
-.nav-bar {
+nav {
   display: flex;
-  background: #f8f8f8;
   justify-content: flex-end;
   font-size: 1.1rem;
+  height: 3.5rem;
+  background: #f8f8f8;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
 }
 
-.nav-bar ul {
-  display: flex;
-  list-style-type: none;
-}
 .nav-bar li a {
   display: flex;
   padding-top: 1rem;
@@ -32,8 +32,7 @@
   color: #000000;
 }
 
-/* Navigation Bar Mobile */
-
+/* Navigation Bar Mobile Icon (used at the bottom, display is set to none for desktop)*/
 .nav-icon-mobile {
   display: flex;
   flex-direction: column;
@@ -42,14 +41,14 @@
 }
 
 .nav-icon-mobile div {
-  display: flex;
+  display: none;
   width: 1.25rem;
-  height: 2px;
-  margin-top: 0.2rem;
+  height: 2.5px;
+  margin: 0.08rem;
   background-color: #585858;
 }
 
-/* Styling for body text */
+/* Body text */
 .main-text h1 {
   position: absolute;
   top: 50%;
@@ -60,7 +59,7 @@
   font-weight: 100;
 }
 
-/* Sytyling for footer */
+/* Footer */
 footer {
   height: 4rem;
   background: #f8f8f8;
@@ -89,4 +88,43 @@ footer {
 .contact-info {
   padding-right: 4rem;
   color: #585858;
+}
+
+/* Mobile Display Style */
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .nav-bar {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    width: 50%;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in;
+    background: #f8f8f8;
+    z-index: 1;
+  }
+  .nav-bar li {
+    opacity: 1;
+  }
+
+  .nav-icon-mobile div {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .nav-bar-active {
+    transform: translateX(0%);
+  }
+  .nav-bar-text-active {
+    opacity: 1;
+  }
 }
