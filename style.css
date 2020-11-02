@@ -14,6 +14,7 @@ nav {
   height: 3.5rem;
   background: #f8f8f8;
 }
+
 .nav-bar {
   display: flex;
   list-style: none;
@@ -93,6 +94,7 @@ footer {
 /* Mobile Display Style */
 @media screen and (max-width: 768px) {
   body {
+    position: relative;
     overflow: hidden;
   }
 
