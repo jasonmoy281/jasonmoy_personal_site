@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400;
+  overflow: hidden;
 }
 /* Navigation Bar */
 /* Navigation Bar Desktop */
@@ -93,9 +94,8 @@ footer {
 
 /* Mobile Display Style */
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden !important;
-  }
+  /* body {
+  } */
 
   .nav-bar {
     position: absolute;
