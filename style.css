@@ -88,28 +88,27 @@ footer {
 
 .contact-info {
   padding-right: 4rem;
-  color: #585858;
+  color: #7a7a7a;
 }
 
 /* Mobile Display Style */
 @media screen and (max-width: 768px) {
   body {
-    position: relative;
-    overflow: hidden;
+    overflow-x: hidden !important;
   }
 
   .nav-bar {
     position: absolute;
     right: 0;
     height: 92vh;
-    width: 50%;
+    width: 40%;
     transform: translateX(100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: transform 0.5s ease-in;
-    background: #f8f8f8;
+    background: #222;
     z-index: 1;
   }
   .nav-bar li {
