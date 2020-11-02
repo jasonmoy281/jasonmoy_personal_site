@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 /* Navigation Bar */
 /* Navigation Bar Desktop */
