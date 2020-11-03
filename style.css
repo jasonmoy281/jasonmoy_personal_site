@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400;
+  /* !need to find a way to not add !important */
   overflow: hidden !important;
 }
 /* Navigation Bar */
@@ -94,6 +95,7 @@ footer {
 
 /* Mobile Display Style */
 @media screen and (max-width: 768px) {
+  /* Nav bar on mobile */
   /* body {
   } */
 
@@ -111,8 +113,11 @@ footer {
     background: #222;
     z-index: 1;
   }
-  .nav-bar li {
-    opacity: 1;
+
+  .nav-bar li a {
+    text-align: justify;
+    /* padding-right set to 0 for centering purpose */
+    padding-right: 0rem;
   }
 
   .nav-icon-mobile div {
@@ -127,5 +132,28 @@ footer {
   }
   .nav-bar-text-active {
     opacity: 1;
+  }
+
+  footer {
+    height: 10rem;
+    background: #f8f8f8;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+  }
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .contact-info {
+    padding-right: 0;
+    color: #7a7a7a;
   }
 }
