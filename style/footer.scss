@@ -1,0 +1,28 @@
+@import "variable";
+
+footer {
+  height: 4rem;
+  background: $navBarColor;
+}
+
+.contact {
+  @include flexCenter(row);
+  width: 100vw;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.contact ul {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-around;
+}
+.contact li {
+  @include flexCenter(column);
+}
+
+.contact-info {
+  padding-right: 4rem;
+  color: $textColor;
+}
