@@ -21,7 +21,7 @@ header {
   padding: 1.8rem;
   color: #7a7979;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .nav-bar li a:hover {
@@ -106,6 +106,12 @@ footer {
   color: #7a7a7a;
 }
 
+.github-icon {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -131,7 +137,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 40vh;
+  height: 35vh;
 }
 
 .main-text h1 {
@@ -164,14 +170,47 @@ footer {
       grid-template-columns: repeat(4, 10rem);
 }
 
-.social-media-icon span {
-  -ms-grid-column-align: center;
-      justify-self: center;
+.social-media-icon a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   border-style: solid;
   border-width: 0.8px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.github {
+  margin: auto;
+  width: 5rem;
+}
+
+.linkedin {
+  margin: auto;
+  width: 4.5rem;
+}
+
+.gmail {
+  margin: auto;
+  width: 4.3rem;
+}
+
+.facebook {
+  margin: auto;
+  width: 2.5rem;
 }
 
 /* *Mobile Display Style */
@@ -242,6 +281,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 20vh;
     width: 100%;
     position: absolute;
     bottom: 0rem;
@@ -262,7 +302,7 @@ footer {
             align-items: center;
   }
   .contact-info {
-    padding: 0.8rem;
+    padding: 0.5rem;
     color: #7a7a7a;
   }
   .social-media-icon {
@@ -273,9 +313,31 @@ footer {
     -webkit-transform: translateY(-30%);
             transform: translateY(-30%);
   }
-  .social-media-icon span {
+  .social-media-icon a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 5rem;
     height: 5rem;
+  }
+  .github {
+    margin: auto;
+    width: 4rem;
+  }
+  .linkedin {
+    margin: auto;
+    width: 3.5rem;
+  }
+  .gmail {
+    margin: auto;
+    width: 3.5rem;
+  }
+  .facebook {
+    margin: auto;
+    width: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
