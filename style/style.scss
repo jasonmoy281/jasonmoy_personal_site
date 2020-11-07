@@ -38,6 +38,7 @@
   width: 100px;
   border-radius: 50%;
   border-style: solid;
+  border-color: black;
   border-width: 0.8px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -57,9 +58,9 @@
   width: 4.3rem;
 }
 
-.facebook {
+.wechat {
   margin: auto;
-  width: 2.5rem;
+  width: 4.5rem;
 }
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
@@ -147,8 +148,8 @@
     width: 3.5rem;
   }
 
-  .facebook {
+  .wechat {
     margin: auto;
-    width: 2rem;
+    width: 3.5rem;
   }
 }

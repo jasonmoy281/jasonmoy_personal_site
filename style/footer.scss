@@ -18,11 +18,12 @@ footer {
   padding-bottom: 1rem;
   justify-content: space-around;
 }
-.contact li {
-  @include flexCenter(column);
-}
 
 .contact-info {
   padding-right: 4rem;
   color: $textColor;
+}
+
+.contact-text {
+  padding-right: 0.3rem;
 }
