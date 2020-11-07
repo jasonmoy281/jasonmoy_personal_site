@@ -61,6 +61,24 @@
 .wechat {
   margin: auto;
   width: 4.5rem;
+  cursor: pointer;
+}
+
+.qr-code {
+  opacity: 0;
+  justify-self: end;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  transition: transform 0.4s ease-in;
+  transform: translate(-15%, -10%);
+}
+.qr-code img {
+  width: 8rem;
+}
+
+.qr-code-active {
+  opacity: 1;
+  transform: translate(-15%, 5%);
 }
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
@@ -151,5 +169,17 @@
   .wechat {
     margin: auto;
     width: 3.5rem;
+  }
+  .qr-code {
+    transform: translate(-15%, -30%);
+  }
+
+  .qr-code img {
+    width: 6rem;
+  }
+
+  .qr-code-active {
+    opacity: 1;
+    transform: translate(-15%, -10%);
   }
 }

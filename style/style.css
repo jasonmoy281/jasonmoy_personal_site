@@ -201,6 +201,32 @@ footer {
 .wechat {
   margin: auto;
   width: 4.5rem;
+  cursor: pointer;
+}
+
+.qr-code {
+  opacity: 0;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+  -webkit-transform: translate(-15%, -10%);
+          transform: translate(-15%, -10%);
+}
+
+.qr-code img {
+  width: 8rem;
+}
+
+.qr-code-active {
+  opacity: 1;
+  -webkit-transform: translate(-15%, 5%);
+          transform: translate(-15%, 5%);
 }
 
 /* *Mobile Display Style */
@@ -328,6 +354,18 @@ footer {
   .wechat {
     margin: auto;
     width: 3.5rem;
+  }
+  .qr-code {
+    -webkit-transform: translate(-15%, -30%);
+            transform: translate(-15%, -30%);
+  }
+  .qr-code img {
+    width: 6rem;
+  }
+  .qr-code-active {
+    opacity: 1;
+    -webkit-transform: translate(-15%, -10%);
+            transform: translate(-15%, -10%);
   }
 }
 /*# sourceMappingURL=style.css.map */
