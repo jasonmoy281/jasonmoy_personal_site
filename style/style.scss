@@ -9,8 +9,8 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400;
+  overflow: hidden;
   /* !need to find a way to not add !important */
-  overflow: hidden !important;
 }
 
 .main-text {
@@ -32,7 +32,8 @@
   grid-template-columns: repeat(4, 10rem);
 }
 
-.social-media-icon a {
+.social-media-icon a,
+.social-media-icon p {
   @include flexCenter(row);
   height: 100px;
   width: 100px;
@@ -66,28 +67,26 @@
 
 .qr-code {
   opacity: 0;
-  justify-self: end;
-  grid-column-start: 3;
-  grid-column-end: 5;
+  float: right;
   transition: transform 0.4s ease-in;
-  transform: translate(-15%, -10%);
-}
-.qr-code img {
+  transform: translate(-165%, -5%);
   width: 8rem;
 }
 
 .qr-code-active {
   opacity: 1;
-  transform: translate(-15%, 5%);
+  transform: translate(-165%, 5%);
 }
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
-  /* Nav bar on mobile */
-  /* body {
-    } */
-
+  body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
   .nav-bar {
-    position: absolute;
+    display: flex;
+    justify-content: center;
     right: 0;
     height: 92vh;
     width: 40%;
@@ -98,8 +97,9 @@
     z-index: 1;
   }
 
-  .nav-bar li a {
-    text-align: justify;
+  .nav-bar li {
+    display: flex;
+    justify-content: center;
     /* padding-right set to 0 for centering purpose */
     padding-right: 0rem;
   }
@@ -144,7 +144,8 @@
     transform: translateY(-30%);
   }
 
-  .social-media-icon a {
+  .social-media-icon a,
+  .social-media-icon p {
     display: flex;
     align-items: center;
     width: 5rem;
@@ -169,17 +170,37 @@
   .wechat {
     margin: auto;
     width: 3.5rem;
-  }
-  .qr-code {
-    transform: translate(-15%, -30%);
+    cursor: pointer;
   }
 
-  .qr-code img {
-    width: 6rem;
+  .qr-code-div {
+    transform: translate(40%, -220%);
+    float: right;
+    width: 8rem;
+  }
+  .qr-code {
+    opacity: 0;
+    width: 5rem;
+    transform: translateX(-3rem);
   }
 
   .qr-code-active {
     opacity: 1;
-    transform: translate(-15%, -10%);
   }
 }
+
+// @media screen and (max-width: 568px) {
+//   .qr-code-div {
+//     transform: translate(40%, -300%);
+//     float: right;
+//     width: 8rem;
+//   }
+//   .qr-code {
+//     opacity: 0;
+//     width: 3.5rem;
+//     transform: translate(-3rem);
+//   }
+//   .qr-code-active {
+//     opacity: 1;
+//   }
+// }
