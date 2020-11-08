@@ -205,22 +205,39 @@ footer {
   cursor: pointer;
 }
 
+.qr-code-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (10rem)[4];
+      grid-template-columns: repeat(4, 10rem);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
 .qr-code {
   opacity: 0;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   float: right;
-  -webkit-transition: -webkit-transform 0.4s ease-in;
-  transition: -webkit-transform 0.4s ease-in;
-  transition: transform 0.4s ease-in;
-  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
-  -webkit-transform: translate(-165%, -5%);
-          transform: translate(-165%, -5%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   width: 8rem;
 }
 
 .qr-code-active {
   opacity: 1;
-  -webkit-transform: translate(-165%, 5%);
-          transform: translate(-165%, 5%);
+  -webkit-transform: translateY(5%);
+          transform: translateY(5%);
 }
 
 /* *Mobile Display Style */
@@ -330,6 +347,10 @@ footer {
         grid-template-rows: repeat(2, 7rem);
     -webkit-transform: translateY(-30%);
             transform: translateY(-30%);
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .social-media-icon a,
   .social-media-icon p {
@@ -360,18 +381,25 @@ footer {
     cursor: pointer;
   }
   .qr-code-div {
-    -webkit-transform: translate(40%, -220%);
-            transform: translate(40%, -220%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     float: right;
-    width: 8rem;
+    -webkit-transform: translate(10%, -200%);
+            transform: translate(10%, -200%);
+    width: 5.5rem;
   }
   .qr-code {
-    opacity: 0;
+    -webkit-transform: translate(-100%, 0%);
+            transform: translate(-100%, 0%);
+    position: relative;
+    opacity: 1;
     width: 5rem;
-    -webkit-transform: translateX(-3rem);
-            transform: translateX(-3rem);
   }
   .qr-code-active {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    background-color: pink;
     opacity: 1;
   }
 }
