@@ -273,7 +273,7 @@ footer {
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     background: #222;
-    z-index: 1;
+    z-index: 4;
   }
   .nav-bar li {
     display: -webkit-box;
@@ -289,7 +289,7 @@ footer {
     position: relative;
     display: block;
     cursor: pointer;
-    z-index: 1;
+    z-index: 4;
   }
   .nav-bar-active {
     -webkit-transform: translateX(0%);
