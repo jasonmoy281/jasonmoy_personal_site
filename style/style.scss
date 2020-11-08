@@ -85,7 +85,6 @@
 }
 
 .qr-code-active {
-  opacity: 1;
   transform: translateY(0%);
 }
 /* *Mobile Display Style */
@@ -169,13 +168,11 @@
     grid-column-start: 4;
     grid-column-end: 5;
     transform: translate(-120%, 0%);
-    opacity: 0;
     width: 5rem;
     z-index: 0;
   }
 
   .qr-code-active {
-    opacity: 1;
     transform: translateX(0%);
   }
 

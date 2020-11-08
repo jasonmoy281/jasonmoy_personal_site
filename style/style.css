@@ -236,7 +236,6 @@ footer {
 }
 
 .qr-code-active {
-  opacity: 1;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
@@ -365,12 +364,10 @@ footer {
     grid-column-end: 5;
     -webkit-transform: translate(-120%, 0%);
             transform: translate(-120%, 0%);
-    opacity: 0;
     width: 5rem;
     z-index: 0;
   }
   .qr-code-active {
-    opacity: 1;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
