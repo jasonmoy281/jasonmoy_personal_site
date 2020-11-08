@@ -218,7 +218,6 @@ footer {
 .qr-code {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  opacity: 0;
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 5;
@@ -238,8 +237,8 @@ footer {
 
 .qr-code-active {
   opacity: 1;
-  -webkit-transform: translateY(5%);
-          transform: translateY(5%);
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 /* *Mobile Display Style */
