@@ -35,14 +35,13 @@
 .social-media-icon a,
 .social-media-icon p {
   @include flexCenter(row);
-  height: 100px;
-  width: 100px;
+  margin: auto;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   border-style: solid;
   border-color: black;
   border-width: 0.8px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .github {
@@ -73,6 +72,8 @@
 }
 
 .qr-code {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   opacity: 0;
   grid-column-start: 4;
   grid-column-end: 5;
@@ -81,6 +82,7 @@
   transform: translateY(-100%);
   transition: transform 0.5s ease-in;
   width: 8rem;
+  margin: 0;
 }
 
 .qr-code-active {
