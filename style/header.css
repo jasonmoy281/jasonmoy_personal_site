@@ -61,7 +61,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 2vh;
+    padding: 3vh;
   }
   .nav-icon-mobile {
     position: absolute;

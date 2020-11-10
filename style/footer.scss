@@ -21,14 +21,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  footer {
-    height: 10rem;
-    background: #f8f8f8;
-  }
   .contact {
     @include flexCenter(row);
     height: 20vh;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     bottom: 0rem;
   }

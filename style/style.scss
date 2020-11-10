@@ -29,6 +29,7 @@
 .social-media-icon {
   display: grid;
   justify-content: center;
+  align-self: center;
   grid-template-columns: repeat(4, 10rem);
 }
 

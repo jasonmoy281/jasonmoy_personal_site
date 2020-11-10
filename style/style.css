@@ -61,7 +61,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 2vh;
+    padding: 3vh;
   }
   .nav-icon-mobile {
     position: absolute;
@@ -122,10 +122,6 @@ footer ul {
 }
 
 @media screen and (max-width: 768px) {
-  footer {
-    height: 10rem;
-    background: #f8f8f8;
-  }
   .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,7 +137,7 @@ footer ul {
         -ms-flex-align: center;
             align-items: center;
     height: 20vh;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     bottom: 0rem;
   }
@@ -226,6 +222,8 @@ footer ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-grid-row-align: center;
+      align-self: center;
   -ms-grid-columns: (10rem)[4];
       grid-template-columns: repeat(4, 10rem);
 }
