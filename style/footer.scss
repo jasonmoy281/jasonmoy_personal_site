@@ -1,29 +1,43 @@
 @import "variable";
 
 footer {
-  height: 4rem;
-  background: $navBarColor;
-}
-
-.contact {
-  @include flexCenter(row);
-  width: 100vw;
   position: absolute;
-  bottom: 0rem;
-}
-
-.contact ul {
+  bottom: 0%;
+  width: 100vw;
+  height: 10vh;
+  background: $navBarColor;
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  ul {
+    display: flex;
+  }
 }
 
 .contact-info {
-  padding-right: 4rem;
+  padding-left: 0.4vw;
+  padding-right: 4vw;
   color: $textColor;
 }
 
-.contact-text {
-  padding-right: 0.3rem;
+@media screen and (max-width: 768px) {
+  footer {
+    height: 10rem;
+    background: #f8f8f8;
+  }
+  .contact {
+    @include flexCenter(row);
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+  }
+  .contact ul {
+    @include flexCenter(column);
+  }
+
+  .contact-info {
+    padding: 0.5rem;
+    color: #7a7a7a;
+  }
 }

@@ -87,65 +87,13 @@
 .qr-code-active {
   transform: translateY(0%);
 }
+
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
   body {
     width: 100vw;
     height: 100vh;
     position: relative;
-  }
-  .nav-bar {
-    display: flex;
-    justify-content: center;
-    right: 0;
-    height: 92vh;
-    width: 40%;
-    transform: translateX(100%);
-    @include flexCenter(column);
-    transition: transform 0.5s ease-in;
-    background: #222;
-    z-index: 4;
-  }
-
-  .nav-bar li {
-    display: flex;
-    justify-content: center;
-    /* padding-right set to 0 for centering purpose */
-    padding-right: 0rem;
-  }
-
-  .nav-icon-mobile div {
-    position: relative;
-    display: block;
-    cursor: pointer;
-    z-index: 4;
-  }
-
-  .nav-bar-active {
-    transform: translateX(0%);
-  }
-  .nav-bar-text-active {
-    opacity: 1;
-  }
-
-  footer {
-    height: 10rem;
-    background: #f8f8f8;
-  }
-  .contact {
-    @include flexCenter(row);
-    height: 20vh;
-    width: 100%;
-    position: absolute;
-    bottom: 0rem;
-  }
-  .contact ul {
-    @include flexCenter(column);
-  }
-
-  .contact-info {
-    padding: 0.5rem;
-    color: #7a7a7a;
   }
 
   .qr-code-div {
@@ -215,19 +163,3 @@
     cursor: pointer;
   }
 }
-
-// @media screen and (max-width: 568px) {
-//   .qr-code-div {
-//     transform: translate(40%, -300%);
-//     float: right;
-//     width: 8rem;
-//   }
-//   .qr-code {
-//     opacity: 0;
-//     width: 3.5rem;
-//     transform: translate(-3rem);
-//   }
-//   .qr-code-active {
-//     opacity: 1;
-//   }
-// }
