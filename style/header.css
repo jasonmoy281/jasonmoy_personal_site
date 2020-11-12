@@ -42,6 +42,7 @@
     right: 0;
     height: 92vh;
     width: 40vw;
+    padding-right: 0;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
