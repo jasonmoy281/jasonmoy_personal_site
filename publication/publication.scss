@@ -1,0 +1,52 @@
+@import "../style/header";
+@import "../style/footer";
+@import "../style/variable";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+h4 {
+  padding-left: 3vw;
+  font-size: 20px;
+  font-style: bold;
+}
+
+p {
+  padding-left: 5vw;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  h1 {
+    padding-bottom: 10vh;
+  }
+
+  h4 {
+    font-size: 17px;
+    padding-left: 1.5rem;
+  }
+  p {
+    font-size: 12px;
+    padding-left: 2.5rem;
+  }
+}
