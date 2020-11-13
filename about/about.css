@@ -233,7 +233,7 @@ h1 {
 @media screen and (max-width: 768px) {
   body {
     position: relative;
-    min-height: 100vh !important;
+    min-height: 100vh;
   }
   h1 {
     padding-bottom: 3rem;
