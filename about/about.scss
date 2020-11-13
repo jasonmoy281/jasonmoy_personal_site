@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 400;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
     grid-area: box1;
     max-width: 75%;
   }
+  overflow-y: scroll;
 }
 
 .paragraph-container {
@@ -43,14 +44,33 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
   h1 {
-    padding-bottom: 0;
+    padding-bottom: 3rem;
   }
 
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: none;
+    // make sure the last rows height size matches with the footer size (i.e. 20vh currently)
+    grid-template-rows: 1fr 1fr 20vh;
     padding-top: 0;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  h1 {
+    padding-bottom: 0;
+  }
+  .paragraph-container {
+    padding: 1rem 2rem;
+  }
+
+  .grid-container {
+    grid-template-rows: 0.6fr 1fr 20vh;
   }
 }
