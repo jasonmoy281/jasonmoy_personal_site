@@ -1,0 +1,52 @@
+@import "../style/header";
+@import "../style/footer";
+@import "../style/variable";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 3vh 0;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 3vh 0;
+}
+
+.mobile-container {
+  display: none;
+}
+.cv-desktop-container {
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-container {
+    display: none;
+  }
+
+  .mobile-container {
+    display: grid;
+    grid-template-rows: 0.3fr 3fr;
+    height: 65vh;
+  }
+
+  .cv-mobile-container {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    height: 100%;
+  }
+}
