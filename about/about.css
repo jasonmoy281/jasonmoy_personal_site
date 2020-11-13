@@ -27,7 +27,6 @@
 @media screen and (max-width: 768px) {
   body {
     width: 100vw;
-    height: 100vh;
     position: relative;
   }
   .nav-bar {
@@ -234,7 +233,7 @@ h1 {
 @media screen and (max-width: 768px) {
   body {
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh !important;
   }
   h1 {
     padding-bottom: 3rem;
