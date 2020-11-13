@@ -209,6 +209,9 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
   .desktop-container {
     display: none;
   }

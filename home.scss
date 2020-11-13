@@ -90,6 +90,9 @@
 
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
   .qr-code-div {
     display: grid;
     grid-template-columns: repeat(4, 6rem);
