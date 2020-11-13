@@ -76,7 +76,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    right: 0;
+    width: 100vw;
     cursor: pointer;
     z-index: 4;
     padding: 1rem 1rem;

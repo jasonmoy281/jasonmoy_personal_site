@@ -306,11 +306,6 @@ footer ul {
 
 /* *Mobile Display Style */
 @media screen and (max-width: 768px) {
-  body {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-  }
   .qr-code-div {
     display: -ms-grid;
     display: grid;
