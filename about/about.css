@@ -25,6 +25,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
   .nav-bar {
     position: absolute;
     display: -webkit-box;
@@ -76,7 +81,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    width: 100vw;
+    right: 0;
     cursor: pointer;
     z-index: 4;
     padding: 1rem 1rem;
