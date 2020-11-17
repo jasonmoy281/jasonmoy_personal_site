@@ -8,7 +8,7 @@ footer {
   background: $navBarColor;
   display: grid;
   grid-template-rows: 1fr 0.5fr;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   ul {
     display: flex;
@@ -22,7 +22,7 @@ footer {
 
 .contact-info {
   padding: 0 0.4vw;
-  color: $textColor;
+  color: rgb(58, 58, 58);
 }
 
 .email {
@@ -46,6 +46,6 @@ footer {
 
   .contact-info {
     padding: 1.5vh;
-    color: #7a7a7a;
+    color: rgb(58, 58, 58);
   }
 }
