@@ -22,4 +22,3 @@ const qrCodeShow = () => {
 
 navSlide();
 qrCodeShow();
-console.log(qrCode.classList);
