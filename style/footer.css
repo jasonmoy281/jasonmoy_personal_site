@@ -1,5 +1,10 @@
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0%;
   width: 100vw;
   height: 10vh;
