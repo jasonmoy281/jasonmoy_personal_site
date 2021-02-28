@@ -188,6 +188,14 @@ footer p {
   overflow-y: scroll;
 }
 
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: max-content max-content 11vh;
+      grid-template-rows: -webkit-max-content -webkit-max-content 11vh;
+      grid-template-rows: max-content max-content 11vh;
+}
+
 h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,7 +222,7 @@ h4 {
 
 .cv-desktop-container {
   width: 80vw;
-  height: 100vh;
+  height: 88vh;
   margin: auto;
 }
 
