@@ -274,15 +274,14 @@ footer p {
   width: 4.5rem;
 }
 
-.scholar {
+.google-scholar {
   margin: auto;
-  width: 5.4rem;
+  width: 6rem;
 }
 
 .research-gate {
   margin: auto;
   width: 5rem;
-  cursor: pointer;
 }
 
 /* *Mobile Display Style */
