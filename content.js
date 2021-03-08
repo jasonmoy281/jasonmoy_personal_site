@@ -1,7 +1,7 @@
 const footer = { email: "jhmoy@ucsd.edu", phone: "+1 619 719 1835" };
 
 const aboutParagraph =
-  "I am a postgradute student currently working as a research assistant in a organizational psychology lab. I am planning to gain a PhD degree in organizational behavior. I am interested in finding ways to increase the organization's efficiency and to improve the employees' wellbeing, in particular, in a cross-cultural context.";
+  "I earned my bachelor's degree from University of California San Diego. I am currently working as a research assistant in an organizational psychology lab at SDSU. I am planning to gain a Ph.D. degree in organizational behavior. I am interested in finding ways to increase the organization's efficiency and to improve the employees' wellbeing, in particular, in a cross-cultural context.";
 
 const publication = null;
 
