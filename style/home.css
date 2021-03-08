@@ -68,6 +68,9 @@
             align-items: center;
     padding: 3vh;
   }
+  .nav-bar a:hover {
+    color: #cecece;
+  }
   .nav-icon-mobile {
     position: absolute;
     display: -webkit-box;
@@ -257,7 +260,7 @@ footer p {
   width: 6rem;
   border-radius: 50%;
   border-style: solid;
-  border-color: #5f5f5f;
+  border-color: #818181;
   border-width: 0.6px;
 }
 

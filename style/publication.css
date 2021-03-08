@@ -68,6 +68,9 @@
             align-items: center;
     padding: 3vh;
   }
+  .nav-bar a:hover {
+    color: #cecece;
+  }
   .nav-icon-mobile {
     position: absolute;
     display: -webkit-box;
