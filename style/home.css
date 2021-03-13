@@ -260,8 +260,8 @@ footer p {
   width: 6rem;
   border-radius: 50%;
   border-style: solid;
-  border-color: #818181;
-  border-width: 0.6px;
+  border-color: #8b8b8b;
+  border-width: 1px;
 }
 
 .github {
