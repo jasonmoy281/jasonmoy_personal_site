@@ -11,6 +11,10 @@
   overflow-x: hidden;
 }
 
+body {
+  min-height: 120vh;
+}
+
 h1 {
   display: flex;
   justify-content: center;

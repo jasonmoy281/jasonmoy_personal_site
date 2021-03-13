@@ -190,6 +190,10 @@ footer p {
   overflow-x: hidden;
 }
 
+body {
+  min-height: 120vh;
+}
+
 h1 {
   display: -webkit-box;
   display: -ms-flexbox;
