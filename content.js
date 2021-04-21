@@ -9,7 +9,9 @@ const manuscriptUnderReview = null;
 
 const manuscriptInPreparation = [
   [
-    `Moy, J. H., Van Dyne, A., & Hattrup, K.(manuscript in preparation).<i> The Cross-Cultural Effect of Job Insecurity and Employability on Employee Outcomes </i>`,
+    `Moy, J. H., Van Dyne, A., & Hattrup, K.(manuscript in preparation).<i> The Contingent Consequences of Job
+    Insecurity: A Cross-National Investigation of the Effects of Job Insecurity, Employability, and Culture on
+    Employee Outcomes. </i>`,
     "http://research.jasonmoy.us/Job_Insecurity_Project",
   ],
   [
