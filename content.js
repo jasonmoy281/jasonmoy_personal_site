@@ -1,7 +1,7 @@
-const footer = { email: "jhmoy@ucsd.edu", phone: "+1 619 719 1835" };
+const footer = { email: "j.moy@lse.ac.uk", phone: "+1 619 719 1835" };
 
 const aboutParagraph =
-  "I earned my bachelor's degree from University of California San Diego. I am currently working as a research assistant with Prof. Kate Hattrup at SDSU. I am planning to gain a Ph.D. degree in organizational behavior. I am interested in finding ways to increase the organization's efficiency and to improve the employees' wellbeing, in particular, in a cross-cultural context.";
+  "I am interested in growing as a researcher and a practitioner in I-O Psychology (a.k.a. OB, HRM). I have graduated from University of California San Diego with a B.S. degree in Psychology. I am planning to study at London School of Economics for my MSc. degree in Human Resources and Organization. In the past, I studied employee well-being in a cross-cultural context. I am open to all types of IO-related projects (research or otherwise). I like making data-driven decisions and approach new challenges with a “scientific” mindset (testable hypothesis is always at the back of my mind). On a more personal note, I am an “efficiency-freak” who loves to automate everything in my life.";
 
 const publication = null;
 
