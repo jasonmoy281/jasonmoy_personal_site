@@ -1,7 +1,9 @@
 const footer = { email: "j.moy@lse.ac.uk", phone: "+1 619 719 1835" };
 
 const aboutParagraph =
-  "I am interested in growing as a researcher and a practitioner in I-O Psychology (a.k.a. OB, HRM). I have graduated from University of California San Diego with a B.S. degree in Psychology. I am planning to study at London School of Economics for my MSc. degree in Human Resources and Organization. In the past, I studied employee well-being in a cross-cultural context. I am open to all types of IO-related projects (research or otherwise). I like making data-driven decisions and approach new challenges with a “scientific” mindset (testable hypothesis is always at the back of my mind). On a more personal note, I am an “efficiency-freak” who loves to automate everything in my life.";
+  "I am interested in growing as a researcher and a practitioner in people analytics (I-O Psychology, OB, HRM whatever you like to call it). In the past, I studied employee well-being in a cross-cultural context. I love making data-driven decisions and approach new challenges with a “scientific” mindset. I am most familiar with data analysis and visualization using R (sometimes using Python and SQL). Additionally, I have a decent understanding of psychometrics and statistical analysis (e.g., latent variable modeling, multilevel regressions, mediations). I have developed an R package, psycModel, that simplifies psychological analysis and modeling which is currently distributed through CRAN and my GitHub. In my leisure time, I am learning some basic web programming for fun. I have developed some projects (available on my GitHub) using HTML, CSS, JavaScript, and I used Google Analytics to track the activities on my websites. Aside from that, I like to automate everything in my life (e.g., using Google Apps Script, IOS Shortcuts, Notion).
+
+  I would love to contribute to all types of people-related research or consulting projects. You can contact me at jhmoy@ucsd.edu";
 
 const publication = null;
 
